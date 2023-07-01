@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/inputLayout"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:divider="@android:color/transparent"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/message_item" />
+
+    <LinearLayout
+        android:id="@+id/inputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        >
+    <ImageView
+        android:id="@+id/addPhotoImageButton"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_baseline_image_24"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inputText"
+        android:layout_width="wrap_content"
+        android:layout_weight="@integer/material_motion_duration_long_1"
+        android:layout_height="wrap_content"/>
+     <com.google.android.material.button.MaterialButton
+         android:id="@+id/messageSendButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:enabled="false"
+         android:text="Send"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

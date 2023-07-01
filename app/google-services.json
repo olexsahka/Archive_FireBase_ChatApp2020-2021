@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "976536237410",
+    "project_id": "absolute-alloy-341613",
+    "storage_bucket": "absolute-alloy-341613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976536237410:android:83f041c94c01acfa02a83b",
+        "android_client_info": {
+          "package_name": "com.example.firebasechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976536237410-hdvi4to5orb0bbbjoo1uvn65ersvlb16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasechatapp",
+            "certificate_hash": "b276de06a3f4497f8e4db64d522ba7bca16c39a8"
+          }
+        },
+        {
+          "client_id": "976536237410-cioc50tsoqnrtdhbiae1t0r381uvsaom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB62SdmUPVN3lBjwVSq4uU7HFC_loJXres"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976536237410-cioc50tsoqnrtdhbiae1t0r381uvsaom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
